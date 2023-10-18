@@ -1,0 +1,27 @@
+GET http://localhost:3000/skills/
+
+###
+GET http://localhost:3000/skills/652e3515f2e8f894a95d4693
+
+###
+POST http://localhost:3000/api/skills/
+Content-Type: application/json
+
+{
+    "name": "poster",
+    "percentage": 0.95
+}
+
+
+###
+PATCH http://localhost:3000/skills/652e37fab9dc79ef82b92aae
+Content-Type: application/json
+
+{
+    "name": "image manipulation",
+    "percentage": 0.90
+}
+
+
+###
+DELETE http://localhost:3000/skills/652e357df2e8f894a95d4695
